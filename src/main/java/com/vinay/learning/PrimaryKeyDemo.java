@@ -17,9 +17,9 @@ public class PrimaryKeyDemo {
         try{
             System.out.println("Creating a new Student");
 
-            Student vinay = new Student("Vinay","Shanbhag","vinay.shanbhag@fmr.com");
-            Student shruthi  = new Student("Shruthi","Joshi","shruthi.joshi@fmr.com");
-            Student vaidehi = new Student("Vaidehi","Shanbhag","vaidehi.shanbhag@fmr.com");
+            Student vinay = new Student("Vinay","Shanbhag","vinay.shanbhag@gmail.com");
+            Student shruthi  = new Student("Shruthi","Joshi","shruthi.joshi@gmail.com");
+            Student vaidehi = new Student("Vaidehi","Shanbhag","vaidehi.shanbhag@gmail.com");
 
             session.beginTransaction();
 
